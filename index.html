@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+<h2>With the recent password breaches, I've created a password generator in javascript.</h2>
+<hr>
+<h3>Select the password size you want (Note that the bigger the password, the stronger.):</h3>
+<button onclick="makeid(16)">16 Char</button>
+<button onclick="makeid(32)">32 Char</button>
+<button onclick="makeid(64)">64 Char</button>
+<button onclick="makeid(parseInt(prompt('How big?')))">Custom Size</button>
+<div id="pwd">
+    <br><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+* {
+    font-family: Sarabun;
+}
+
+#pwd {
+    font-size: 22px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 5px;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+button {
+    padding: 10px;
+    border-radius: 0px;
+    border: 2px solid #333;
+    background-color: #333;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+button:active {
+    background-color: #111;
+}
